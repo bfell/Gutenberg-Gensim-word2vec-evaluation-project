@@ -30,7 +30,7 @@ We can see most of fiction categories were assigned properly.
 
 Only 13 of a total of 38 books were not classified correctly, yielding a 65.8% success rate.
 
-The expections were the following:
+The exceptions were the following:
 - Jane Eyre: An Autobiography by Charlotte Brontë
 - Don Quixote by Miguel de Cervantes Saavedra
 - A Doll's House : a play by Henrik Ibsen
