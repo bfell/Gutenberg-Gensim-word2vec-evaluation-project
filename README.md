@@ -26,8 +26,6 @@ More details are included in the python code section.
 
 RESULTS:
 
-RESULTS
-
 We can see most of fiction categories were assigned properly. 
 
 Only 13 of a total of 38 books were not classified correctly, yielding a 65.8% success rate.
@@ -48,3 +46,16 @@ The expections were the following:
 - The Romance of Lust: A classic Victorian erotic novel by Anonymous
 
 This is a simple example of categories evaluation by using Ginsem doc2vec embeddings. Categories with more specificity can be studied with this same model but a much larger data set must be extracted to obtain representative genre vectors that can be used for evaluating books genres.
+
+
+References:
+
+Document embeddings and Gensim doc2vec models
+-	https://radimrehurek.com/gensim/models/doc2vec.html#module-gensim.models.doc2vec
+-	https://arxiv.org/pdf/1405.4053v2.pdf 
+-	https://towardsdatascience.com/multi-class-text-classification-with-doc2vec-logistic-regression-9da9947b43f4
+-	https://www.kaggle.com/currie32/comparing-books-with-word2vec-and-doc2vec/notebook#Doc2Vec
+
+Scrapping Gutenberg project books
+-	https://katherinepully.com/project-gutenberg-scraper/
+-	https://codereview.stackexchange.com/questions/141898/sample-scraping-project-gutenberg-using-beautiful-soup-and-requests
