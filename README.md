@@ -26,6 +26,156 @@ More details are included in the python code section.
 
 RESULTS:
 
+Cosine Similarities with Fiction vs Non-Fiction Embeddings:
+
+The Romance of Lust: A classic Victorian erotic novel by Anonymous (220)    ['Incest -- Fiction', 'Erotic stories']
+Fiction similarity:  [[-0.05316773]]
+Non-Fiction similarity:  [[0.02405052]]
+
+A Pickle for the Knowing Ones by Timothy Dexter (486)    ['Biography']
+Fiction similarity:  [[0.03112186]]
+Non-Fiction similarity:  [[0.27475834]]
+
+Märchen der Gebrüder Grimm 2 by Jacob Grimm and Wilhelm Grimm (220)    ['Fairy tales -- Germany']
+Fiction similarity:  [[0.08288112]]
+Non-Fiction similarity:  [[0.36124396]]
+
+Anna Karenina by graf Leo Tolstoy (238)    ['Adultery -- Fiction', 'Didactic fiction', 'Love stories']
+Fiction similarity:  [[0.39001006]]
+Non-Fiction similarity:  [[0.22117396]]
+
+Wuthering Heights by Emily Brontë (268)    ['Psychological fiction', 'Love stories', 'Domestic fiction']
+Fiction similarity:  [[0.0976584]]
+Non-Fiction similarity:  [[0.19259836]]
+
+Ulysses by James Joyce (390)    ['Psychological fiction', 'Domestic fiction', 'Epic literature', 'Married people -- Fiction', 'Male friendship -- Fiction']
+Fiction similarity:  [[0.03295119]]
+Non-Fiction similarity:  [[0.08621626]]
+
+Tractatus Logico-Philosophicus by Ludwig Wittgenstein (320)    ['Philosophy']
+Fiction similarity:  [[0.07726576]]
+Non-Fiction similarity:  [[0.35948765]]
+
+The American Diary of a Japanese Girl by Yoné Noguchi (623)    ['Japan -- Fiction']
+Fiction similarity:  [[0.18793815]]
+Non-Fiction similarity:  [[0.24376105]]
+
+A Modest Proposal by Jonathan Swift (607)    ['Political satire, English', 'Religious satire, English', 'Ireland -- Politics and government -- 18th century -- Humor']
+Fiction similarity:  [[0.02830998]]
+Non-Fiction similarity:  [[0.48431265]]
+
+Heart of Darkness by Joseph Conrad (508)    ['Psychological fiction', 'Imperialism -- Fiction']
+Fiction similarity:  [[0.36236417]]
+Non-Fiction similarity:  [[0.09613796]]
+
+A Warning to the Curious and Other Ghost Stories by M. R.  James (425)    []
+Fiction similarity:  [[0.11689119]]
+Non-Fiction similarity:  [[0.19405797]]
+
+A Tale of Two Cities by Charles Dickens (556)    ['War stories', 'Historical fiction', 'England -- Fiction']
+Fiction similarity:  [[0.0930782]]
+Non-Fiction similarity:  [[0.12418421]]
+
+The Odyssey by Homer (248)    ['Epic poetry']
+Fiction similarity:  [[0.04639429]]
+Non-Fiction similarity:  [[0.3002144]]
+
+Alice's Adventures in Wonderland by Lewis Carroll (748)    ['Fantasy fiction', 'Imaginary places -- Juvenile fiction', "Children's stories"]
+Fiction similarity:  [[0.3130059]]
+Non-Fiction similarity:  [[0.18933827]]
+
+Japanese Girls and Women by Alice Mabel Bacon (404)    ['Women -- Japan -- Social conditions']
+Fiction similarity:  [[0.13491642]]
+Non-Fiction similarity:  [[0.34866852]]
+
+Dracula by Bram Stoker (620)    ['Horror tales', 'Gothic fiction', 'Vampires -- Fiction']
+Fiction similarity:  [[0.09649402]]
+Non-Fiction similarity:  [[0.19946308]]
+
+War and Peace by graf Leo Tolstoy (412)    ['Historical fiction', 'War stories', 'Aristocracy (Social class) -- Russia -- Fiction']
+Fiction similarity:  [[0.17590179]]
+Non-Fiction similarity:  [[0.27332434]]
+
+Beyond Good and Evil by Friedrich Wilhelm Nietzsche (275)    ['Ethics', 'Philosophy']
+Fiction similarity:  [[0.15141302]]
+Non-Fiction similarity:  [[0.23496476]]
+
+Les Misérables by Victor Hugo (217)    ['Historical fiction', 'Epic literature', 'Orphans -- Fiction']
+Fiction similarity:  [[0.06488585]]
+Non-Fiction similarity:  [[0.14127941]]
+
+Essays of Michel de Montaigne — Complete by Michel de Montaigne (254)    []
+Fiction similarity:  [[0.02146232]]
+Non-Fiction similarity:  [[0.12770727]]
+
+Frankenstein; Or, The Modern Prometheus by Mary Wollstonecraft Shelley (1963)    ['Science fiction', 'Horror Tales', 'Gothic Fiction', 'Scientists -- Fiction']
+Fiction similarity:  [[0.10958128]]
+Non-Fiction similarity:  [[0.17222267]]
+
+The Kama Sutra of Vatsyayana by Vatsyayana (235)    ['Love', 'Sex']
+Fiction similarity:  [[0.08646447]]
+Non-Fiction similarity:  [[0.20152023]]
+
+Walden, and On The Duty Of Civil Disobedience by Henry David Thoreau (341)    ['Biography', 'Solitude', 'Natural history -- Massachusetts -- Walden Woods']
+Fiction similarity:  [[0.1117556]]
+Non-Fiction similarity:  [[0.32351252]]
+
+The Great Gatsby by F. Scott  Fitzgerald (510)    ['Psychological fiction', 'Married women -- Fiction', 'First loves -- Fiction']
+Fiction similarity:  [[0.32229045]]
+Non-Fiction similarity:  [[0.05365625]]
+
+Kwaidan: Stories and Studies of Strange Things by Lafcadio Hearn (259)    ['Ghost stories', 'Paranormal fiction', 'Japan -- Social life and customs -- Fiction']
+Fiction similarity:  [[0.1615097]]
+Non-Fiction similarity:  [[0.21151352]]
+
+The Prophet by Kahlil Gibran (282)    ['Prose poems, American', 'Mysticism -- Poetry']
+Fiction similarity:  [[0.09554582]]
+Non-Fiction similarity:  [[0.2847405]]
+
+A Doll's House : a play by Henrik Ibsen (599)    ['Drama']
+Fiction similarity:  [[0.36909798]]
+Non-Fiction similarity:  [[0.12462879]]
+
+Great Expectations by Charles Dickens (446)    ['Orphans -- Fiction', 'England -- Fiction', 'Revenge -- Fiction', 'Bildungsromans']
+Fiction similarity:  [[0.23567179]]
+Non-Fiction similarity:  [[0.14792575]]
+
+Narrative of the Life of Frederick Douglass, an American Slave by Frederick Douglass (289)    ['Biography']
+Fiction similarity:  [[0.14226636]]
+Non-Fiction similarity:  [[0.3139574]]
+
+The Yellow Wallpaper by Charlotte Perkins Gilman (503)    ['Psychological fiction', 'Married women -- Psychology -- Fiction']
+Fiction similarity:  [[0.35056472]]
+Non-Fiction similarity:  [[0.19185829]]
+
+Siddhartha by Hermann Hesse (299)    ['Spiritual life -- Fiction']
+Fiction similarity:  [[0.19157973]]
+Non-Fiction similarity:  [[0.12734298]]
+
+The Count of Monte Cristo, Illustrated by Alexandre Dumas (333)    ['Historical fiction', 'Revenge -- Fiction', 'Adventure stories', 'Pirates -- Fiction']
+Fiction similarity:  [[0.05591396]]
+Non-Fiction similarity:  [[0.11180107]]
+
+The Adventures of Tom Sawyer, Complete by Mark Twain (238)    ['Humorous stories', 'Boys -- Fiction', 'Adventure stories', 'Bildungsromans']
+Fiction similarity:  [[0.35497108]]
+Non-Fiction similarity:  [[0.11962791]]
+
+Anthem by Ayn Rand (218)    ['Science fiction', 'Psychological fiction', 'Love stories', 'Men -- Psychology -- Fiction']
+Fiction similarity:  [[0.21538979]]
+Non-Fiction similarity:  [[0.205314]]
+
+Don Quixote by Miguel de Cervantes Saavedra (249)    ['Spain -- Social life and customs -- 16th century -- Fiction']
+Fiction similarity:  [[0.01779339]]
+Non-Fiction similarity:  [[0.03409424]]
+
+Summer by Romain Rolland (361)    []
+Fiction similarity:  [[0.2446959]]
+Non-Fiction similarity:  [[0.1727797]]
+
+Jane Eyre: An Autobiography by Charlotte Brontë (500)    ['Orphans -- Fiction', 'England -- Fiction', 'Young women -- Fiction', 'Love stories', 'Bildungsromans']
+Fiction similarity:  [[0.04781731]]
+Non-Fiction similarity:  [[0.20992048]]
+
 We can see most of fiction categories were assigned properly. 
 
 Only 13 of a total of 38 books were not classified correctly, yielding a 65.8% success rate.
