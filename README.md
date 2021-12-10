@@ -48,4 +48,3 @@ The expections were the following:
 - The Romance of Lust: A classic Victorian erotic novel by Anonymous
 
 This is a simple example of categories evaluation by using Ginsem doc2vec embeddings. Categories with more specificity can be studied with this same model but a much larger data set must be extracted to obtain representative genre vectors that can be used for evaluating books genres.
-![image](https://user-images.githubusercontent.com/5280738/145529338-f987e5d3-1052-44b8-9d36-1d3539f161b7.png)
