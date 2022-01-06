@@ -1,15 +1,15 @@
-# Gutenberg-Gensim-word2vec-evaluation-project
+# Gutenberg Genre Evaluation using Gensim word2vec
 
 This project aims to evaluate the genre classification of the 69 most popular eBooks in the Gutenberg project collection (https://www.gutenberg.org/browse/scores/top). Each book in this collection has multiple genres included in its metadata, and this analysis will dive into evaluating the consistency of these genres on a high level. 
 
 Given the high specificity of genres, we will only study whether the highest-level categories available, which are Fiction (At least one Subject contains Fiction as a direct category or hierarchical category), vs Non-Fiction (None of all Subject contains Fiction as a direct category or hierarchical category). We will analyze if books classified as Fiction are similar to all other fiction books in this collection from a bag-of-words perspective. In other words, we will see if books classified as Fiction, share a similar vocabulary to all other books under that same category. 
 
-We were able to scrape and categorize the following number of books:
+Books scrapped:
 
 #Fiction Books:  43
 #Non-Fiction Books:  26
 
-We created a Fiction and Non-Fiction vector representation by aggregating all these 69 documents into vectors that represent each of these two categories (Fiction vs Non-Fiction). After that, we compared new documents (embedded with the same model) to these vectors by using cosine similarity to check if they were classified as Fiction or Non-Fiction in a consistent way. If a document was classified as some kind of Fiction and is more similar to the Fiction vector than to the Non-Fiction vector, then that would mean that that specific book was categorized consistently from a vocabulary perspective. In other words, this book has similar vocabulary as the books under the same high-level category.
+I created a Fiction and Non-Fiction vector representation by aggregating all these 69 documents into vectors that represent each of these two categories (Fiction vs Non-Fiction). After that, we compared new documents (embedded with the same model) to these vectors by using cosine similarity to check if they were classified as Fiction or Non-Fiction in a consistent way. If a document was classified as some kind of Fiction and is more similar to the Fiction vector than to the Non-Fiction vector, then that would mean that that specific book was categorized consistently from a vocabulary perspective. In other words, this book has similar vocabulary as the books under the same high-level category.
 
 Technical Specification
 
